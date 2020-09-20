@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+/******** Desktop media *********/
+@media (min-width: 992px){
+    section{
+        width: 31%;
+        float: left;
+    }
+}
+
+/********* Tablet media *********/
+@media (min-width:768px) and (max-width:991px){
+    .s1, .s2{
+        width: 47%;
+        float: left;
+    }
+    .s3{
+        width: 96.2%;
+        clear: left;
+    }
+}
+
+/********* Mobile view *********/
+@media(max-width:767px){
+    section{
+        width: 95%;
+    }
+}
+
+h2 , section{
+    border: 3px solid black;
+}
+
+h2{
+    width: fit-content;
+    position: absolute;
+    right: 0px;
+    padding: 0px 15px 0px 15px;
+    margin-top: 0px;
+}
+
+section{
+    position: relative;
+    background-color: gray;
+    margin: 10px 10px 10px 10px;
+}
+
+p{
+    padding: 30px 15px 0px 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+.t1{
+    background-color: pink;
+}
+
+.t2{
+    background-color: red;
+    color: white;
+}
+
+.t3{
+   background-color: wheat;
+}
+
